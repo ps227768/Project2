@@ -1,0 +1,200 @@
+﻿<Window x:Class="Kassa_deFluitendeFietster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kassa_deFluitendeFietster"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/background.jpg" Opacity="0.5"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="19*"></RowDefinition>
+            <RowDefinition Height="19*"></RowDefinition>
+            <RowDefinition Height="19*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Background="Black" Height="40" Margin="0,5,0,0">
+            <Label Foreground="White" Content="5 eurocent" FontSize="10"/>
+            <Image Source="/Assets/5cent.jpg" Height="40" Margin="50,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_5cent"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Background="Black" Height="40" Margin="0,50,0,0">
+            <Label Foreground="White" Content="10 eurocent" FontSize="10"/>
+            <Image Source="/Assets/10cent.jpg" Height="40" Margin="50,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_10cent"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Background="Black" Height="40" Margin="0,95,0,0">
+            <Label Foreground="White" Content="20 eurocent" FontSize="10"/>
+            <Image Source="/Assets/20cent.jpg" Height="40" Margin="50,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_20cent"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Background="Black" Height="40" Margin="0,140,0,0">
+            <Label Foreground="White" Content="50 eurocent" FontSize="10"/>
+            <Image Source="/Assets/50cent.jpg" Height="40" Margin="50,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_50cent"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="1" Grid.Column="1" Background="Black" Height="40" Margin="0,185,0,0">
+            <Label Foreground="White" Content="1 euro" FontSize="10"/>
+            <Image Source="/Assets/1euro.jpg" Height="40" Margin="75,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_1euro"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1" Background="Black" Height="40" Margin="0,0,0,0">
+            <Label Foreground="White" Content="2 euro" FontSize="10"/>
+            <Image Source="/Assets/2euro.jpg" Height="40" Margin="75,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_2euro"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1" Background="Black" Height="40" Margin="0,45,0,0">
+            <Label Foreground="White" Content="5 euro" FontSize="10"/>
+            <Image Source="/Assets/5euro.jpg" Height="40" Margin="34,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_5euro"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1" Background="Black" Height="40" Margin="0,90,0,0">
+            <Label Foreground="White" Content="10 euro" FontSize="10"/>
+            <Image Source="/Assets/10euro.jpg" Height="40" Margin="35,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_10euro"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1" Background="Black" Height="40" Margin="0,135,0,0">
+            <Label Foreground="White" Content="20 euro" FontSize="10"/>
+            <Image Source="/Assets/20euro.jpg" Height="40" Margin="30,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_20euro"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1" Background="Black" Height="40" Margin="0,180,0,0">
+            <Label Foreground="White" Content="50 euro" FontSize="10"/>
+            <Image Source="/Assets/50euro.jpg" Height="40" Margin="30,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_50euro"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="3" Grid.Column="1" Background="Black" Height="40" Margin="0,0,0,0">
+            <Label Foreground="White" Content="100 euro" FontSize="10"/>
+            <Image Source="/Assets/100euro.jpg" Height="40" Margin="20,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_100euro"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="3" Grid.Column="1" Background="Black" Height="40" Margin="0,45,0,0">
+            <Label Foreground="White" Content="200 euro" FontSize="10"/>
+            <Image Source="/Assets/200euro.jpg" Height="40" Margin="15,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_200euro"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Grid.Row="3" Grid.Column="1" Background="Black" Height="40" Margin="0,90,0,0">
+            <Label Foreground="White" Content="500 euro" FontSize="10"/>
+            <Image Source="/Assets/500euro.jpg" Height="40" Margin="15,0,0,0"/>
+            <TextBox Text="0" Margin="40,0,0,0" Background="Black" Foreground="White" x:Name="tb_500euro"/>
+            <Label Content="Keer" Foreground="White" FontSize="10"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="2" Margin="5,5,5,5" Background="Black">
+            <Label Content="Bestellen:" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" FontWeight="bold" Margin="0,10,0,0"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Fietsen:" Foreground="White"/>
+                <ComboBox Width="150" Margin="46,0,0,0" x:Name="cmb_Fietsen">
+                    <ComboBoxItem Content="Aanhangfiets € 20,00 / dag"/>
+                    <ComboBoxItem Content="Bakfiets € 35,00 / dag"/>
+                    <ComboBoxItem Content="Driewielfiets € 30,00 / dag"/>
+                    <ComboBoxItem Content="Elektrische fiets € 30,00 / dag"/>
+                    <ComboBoxItem Content="Kinderfiets € 15,00 / dag"/>
+                    <ComboBoxItem Content="Ligfiets € 45,00 / dag"/>
+                    <ComboBoxItem Content="Oma fiets € 12,50 / dag"/>
+                    <ComboBoxItem Content="Racefiets € 15,00 / dag"/>
+                    <ComboBoxItem Content="Speed pedelec € 15,00 / dag"/>
+                    <ComboBoxItem Content="Stadsfiets € 12,50 / dag"/>
+                    <ComboBoxItem Content="Vouwfiets € 10,00 / dag"/>
+                    <ComboBoxItem Content="Zitfiets € 15,00 / dag"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Verzekeringen:" Foreground="White"/>
+                <ComboBox Width="150" Margin="8,0,0,0" x:Name="cmb_Verzekeringen">
+                    <ComboBoxItem Content="Beschadigingen € 5,00 / dag"/>
+                    <ComboBoxItem Content="Diefstal € 10,00 / dag, eigen risico"/>
+                    <ComboBoxItem Content="Rechtsbijstand € 5,00 / dag"/>
+                    <ComboBoxItem Content="Ongevallen € 2,50 / dag"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Services:" Foreground="White"/>
+                <ComboBox Width="150" Margin="42,0,0,0" x:Name="cmb_Services">
+                    <ComboBoxItem Content="Ophaalservice € 15,00 / dag"/>
+                    <ComboBoxItem Content="Regenpak € 10,00 / dag"/>
+                    <ComboBoxItem Content="Lunchpakket basis € 12,50 / dag"/>
+                    <ComboBoxItem Content="Lunchpakket uitgebreid € 20,00 / dag"/>
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label Content="Dagen:" Foreground="White"/>
+                <TextBox Text="0" Background="Black" Foreground="White" VerticalAlignment="Center" x:Name="tb_dagen"/>
+            </StackPanel>
+            <Button Background="DarkBlue" Foreground="White" Content="Bestel artikel" Width="80" Height="40" x:Name="btn_BestelArtikel"/>
+        </StackPanel>
+
+        <StackPanel Background="Black" Grid.Column="2" Grid.Row="2" Margin="5,5,5,5" Height="210">
+            <ListBox Background="Black" Foreground="Yellow">
+
+            </ListBox>
+            <Label Foreground="White"/>
+        </StackPanel>
+        <Label Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Te betalen bedrag:" Grid.Row="2" Grid.Column="2" Margin="0,0,0,60"/>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center">
+            <TextBlock Text="€" Foreground="White" Background="Black" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30" FontSize="20"/>
+            <TextBlock Text="0,00" Foreground="White" Background="Black" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30" FontSize="20" x:Name="tb_teBetalenBedrag"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="2" Grid.Row="3" Background="Black" Margin="5,5,5,5">
+            <Label Content="Betalen:" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <Label Content="Geef handmatig een bedrag in:" Foreground="White" HorizontalAlignment="Center" FontSize="10" FontWeight="Bold"/>
+            <Button Background="DarkBlue" Foreground="White" HorizontalAlignment="Center" Content="Geef totaalbedrag in" x:Name="btn_Totaalbedrag"/>
+            <Label Content="Totaal gegeven bedrag:" Foreground="White" HorizontalAlignment="Center" FontSize="10" FontWeight="Bold"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Background="Black" Foreground="White" FontSize="20" HorizontalAlignment="Center" Text="€"/>
+                <TextBox Background="Black" Foreground="White" FontSize="20" HorizontalAlignment="Center" Text="0,00" x:Name="tb_gegevenBedrag"/>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Background="Black" Grid.Row="1" Grid.Column="3" Margin="5,5,5,5" Grid.RowSpan="3" Height="500" VerticalAlignment="Center">
+            <Label Foreground="White" FontFamily="bold" Content="Afrekenen:" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Foreground="Green" FontSize="20" Text="€" HorizontalAlignment="Center"/>
+                <TextBlock Foreground="Green" FontSize="20" Text="0,00" HorizontalAlignment="Center" x:Name="tb_wisselgeld"/>
+            </StackPanel>
+            <ListBox Background="Black" Foreground="White" HorizontalAlignment="Center" Width="200"/>
+        </StackPanel>
+        <Button Background="DarkBlue" Foreground="White" Content="Volgende klant" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="40" Grid.Column="3" Grid.Row="3" Margin="0,0,0,110" x:Name="btn_volgendeKlant"/>
+    </Grid>
+</Window>

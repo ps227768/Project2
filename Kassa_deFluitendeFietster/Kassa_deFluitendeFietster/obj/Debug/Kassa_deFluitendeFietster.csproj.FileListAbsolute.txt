@@ -1,0 +1,15 @@
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\bin\Debug\Kassa_deFluitendeFietster.exe.config
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\bin\Debug\Kassa_deFluitendeFietster.exe
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\bin\Debug\Kassa_deFluitendeFietster.pdb
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\Kassa_deFluitendeFietster.csproj.AssemblyReference.cache
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\MainWindow.g.cs
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\App.g.cs
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\Kassa_deFluitendeFietster_MarkupCompile.cache
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\Kassa_deFluitendeFietster_MarkupCompile.lref
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\MainWindow.baml
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\Kassa_deFluitendeFietster.g.resources
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\Kassa_deFluitendeFietster.Properties.Resources.resources
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\Kassa_deFluitendeFietster.csproj.GenerateResource.cache
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\Kassa_deFluitendeFietster.csproj.CoreCompileInputs.cache
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\Kassa_deFluitendeFietster.exe
+C:\Users\clieb\OneDrive - Summacollege\School\school\periode 3\project 2\Kassa_deFluitendeFietster\Kassa_deFluitendeFietster\obj\Debug\Kassa_deFluitendeFietster.pdb
